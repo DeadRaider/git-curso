@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+    color: rgb(255, 159, 159);
+}
+nav{
+    background-color: lightblue;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: rgb(118, 118, 201);
+}
+h1{
+    color: rgb(27, 26, 23);
+    background-color: rgb(236, 186, 236);
+}
+
+p{
+    color: black;
+    background-color: darkgray;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 10px;
+}
+
+div{    
+    background-color: aquamarine;
+}
+
+.titulo1{
+    background-color: blue;
+    text-align: center;
+}
+
+h2{
+    padding: 0%;
+    margin: 0%;
+    border: wheat;
+    background-color: rgb(7, 56, 56);
+    border-radius: 30px;
+}
+
+div{
+    background-color: aquamarine;
+    text-align: justify;
+}
+
+form input[type="text"]{
+    border: rebeccapurple 1px solid;
+}

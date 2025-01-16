@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>body {color: white;}</style>
+    
+</head>
+<body bgcolor="#2a2829">
+    <a href="C:\Users\bradl\Documents\2022 1\Brad\Untitled-1.html">Volver</a>
+    <h1>Clase Numero 3</h1>
+    <p>Esta es una prueba</p>
+    <table bgcolor="grey" border="3" cellspacing="3" cellpadding="2" width="80%">
+        align="center"
+        <Caption>Register</Caption>
+        <thead>
+            <tr>
+                <th colspan="2">Email</th>
+                <th bgcolor="red">Direccion</th>
+                <th>Nombre</th>
+                <th colspan="2">Ciudad</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">Brad@hotmail.com</td>
+                <td>23#28-9</td>
+                <td>Brad</td>
+                <td>Palmira</td>
+                <td>Emilia</td>
+            </tr>
+            <tr>
+                
+                <td>29#b89</td>
+                <td>Brad</td>
+                <td>Cali</td>
+                <td>Barrio</td>
+            </tr>
+
+        </tbody>
+        <tfoot bgcolor="white" style="color: black;">
+            <td colspan="5">Toda esta parte</td>
+            <td>Como para que</td>
+        </tfoot>
+    </table>
+    <p></p>
+    <hr>
+    <p>
+    <b></b>
+    </p>
+    <form action="HOLA" method="post">
+        Nombre: <input type="text" name="nombre" id="nombre" placeholder="Digite Nombre" required>
+        Edad: <input type="number" name="edad" id="edad" placeholder="Digite edad" required>
+        Email: <input type="email" name="email" id="email" placeholder="Digite email" required>
+        Contraseña: <input type="password" name="contra" id="contra">
+        Genero: <select name="genero" id="genero">
+            <option value="Masc">Masc</option>
+            <option value="Fem">Fem</option>
+        <br>
+        <input type="checkbox" name="auto" id="auto" required>Aceptar
+        
+        <Fieldset>
+                <legend>Info de Pago</legend>
+                <input type="radio" name="pago" id="efect">Efectivo
+                <input type="radio" name="pago" id="tarj">Tarjeta
+        </Fieldset>
+        Fecha: <input type="date" name="fech" id="fech" required>
+        Archivo: <input type="file" name="img" id="img" accept="images">
+        <br>
+        <br>
+        <textarea name="ob" id="ob" cols="30" rows="10" placeholder="observaciones"></textarea>
+        <br>
+        </select>
+
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+    <br>
+</body>
+</html>
